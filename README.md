@@ -1,75 +1,89 @@
-🐾 PlayFetch
-PlayFetch is a full-stack dog playdate scheduling platform that enables pet owners to discover compatible dogs, filter by personality and location, and manage structured play sessions through a clean, intuitive dashboard.
-The platform emphasizes safe matchmaking, behavioral compatibility, and location-based discovery to create positive, real-world social experiences for dogs and their owners.
+# 🐾 PlayFetch
 
-📸 Screenshots
-Home
-Search & Filter
-Dashboard
-Mobile View
+PlayFetch is a full-stack dog playdate scheduling platform that enables owners to discover compatible dogs, filter by personality and location, and manage structured play sessions through a unified dashboard.
 
-✨ Core Features
-Secure user registration and authentication
-Dog profile creation with personality and play-style attributes
-Location-based playdate discovery
-Advanced filtering by personality and geographic area
-Structured playdate scheduling and management
-Fully responsive interface across desktop, tablet, and mobile
+The system is designed around behavioral compatibility, location-aware discovery, and structured scheduling to support safe, real-world social interactions.
 
-🛠 Tech Stack
-Layer
-Technology
-Role
-Frontend
-React
-Component-based user interface
-Frontend
-HTML5
-Semantic markup structure
-Frontend
-CSS3
-Responsive layout and visual styling
-Frontend
-JavaScript (ES6)
-Client-side interactivity and state handling
-Backend
-Java
-Core business logic
-Backend
-Spring Boot
-RESTful API and server configuration
-Database
-PostgreSQL
-Relational data persistence
-Tooling
-Git & GitHub
-Version control and collaboration
+---
 
+## 📸 Screenshots
 
-🏗 Architecture
+* Home
+* Search & Filter
+* Playdate Dashboard
+* Mobile View
+
+---
+
+## ✨ Features
+
+* Secure user registration and authentication
+* Dog profile creation with breed, age, and behavioral attributes
+* Personality and play-style based compatibility filtering
+* Location-based discovery of nearby playdates
+* Advanced search filtering by personality and geographic region
+* Structured scheduling and management of play sessions
+* Playdate status tracking (pending, confirmed, canceled)
+* Responsive design optimized for desktop and mobile devices
+
+---
+
+## 🛠 Tech Stack
+
+| Layer    | Technology       | Responsibility                              |
+| -------- | ---------------- | ------------------------------------------- |
+| Frontend | React            | Component-based UI architecture             |
+| Frontend | HTML5            | Semantic structure                          |
+| Frontend | CSS3             | Responsive layout and visual styling        |
+| Frontend | JavaScript (ES6) | Client-side logic and state management      |
+| Backend  | Java             | Core domain and business logic              |
+| Backend  | Spring Boot      | REST API, routing, and server configuration |
+| Database | PostgreSQL       | Relational data persistence                 |
+| Tooling  | Git & GitHub     | Version control and project management      |
+
+---
+
+## 🏗 Architecture
+
 PlayFetch follows a layered full-stack architecture:
-React frontend consuming RESTful APIs
-Spring Boot backend managing business logic
-PostgreSQL database for structured data storage
-Clear separation between presentation, service, and data layers
-The system is structured for maintainability, scalability, and clean separation of concerns.
 
-🚀 Running the Application
-git clone https://github.com/your-username/playfetch.git
-cd playfetch
+* React frontend consuming RESTful APIs
+* Spring Boot backend handling business rules and validation
+* PostgreSQL for structured relational data storage
+* Clear separation between presentation, service, and data layers
 
-Frontend
+The system emphasizes maintainability, modular design, and clean separation of concerns.
+
+---
+
+## 🚀 Running the Application
+
+```bash
+git remote add origin https://github.com/IbrahimQaar/PlayFetch.git
+```
+
+### Frontend
+
+```bash
 cd frontend
 npm install
 npm start
+```
 
-Backend
+### Backend
+
+```bash
 cd backend
 ./mvnw spring-boot:run
+```
 
-Update PostgreSQL credentials in application.properties before starting the backend.
+Configure PostgreSQL credentials in `application.properties` before starting the backend.
 
-👨‍💻 Author
-Ibrahim Qaar
+---
+
+## 👨‍💻 Author
+
+**Ibrahim Qaar**
 Full-Stack Java & React Developer
 
+-
