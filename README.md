@@ -6,7 +6,7 @@ The system is designed around behavioral compatibility, location-aware discovery
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <img width="1511" height="861" alt="Home" src="https://github.com/user-attachments/assets/dd748ce6-b224-486d-b003-64ada8ddcdc3" />
 
@@ -33,7 +33,7 @@ The system is designed around behavioral compatibility, location-aware discovery
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Category     | Technologies                         | Purpose                                    |
 | ------------ | ------------------------------------ | ------------------------------------------ |
@@ -44,7 +44,7 @@ The system is designed around behavioral compatibility, location-aware discovery
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 PlayFetch follows a layered full-stack architecture:
 
@@ -57,7 +57,7 @@ The system emphasizes modular design, maintainability, and clean separation of c
 
 ---
 
-## 🚀 Running the Application
+## Running the Application
 
 ```bash
 git clone https://github.com/IbrahimQaar/PlayFetch.git
@@ -83,7 +83,7 @@ Configure PostgreSQL credentials in `application.properties` before starting the
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Ibrahim Qaar**
 Full-Stack Java & React Developer
