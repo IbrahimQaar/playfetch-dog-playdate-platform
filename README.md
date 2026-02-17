@@ -59,7 +59,7 @@ The system emphasizes modular design, maintainability, and clean separation of c
 
 ```bash
 git clone https://github.com/IbrahimQaar/playfetch-dog-playdate-platform
-cd PlayFetch
+cd playfetch-dog-playdate-platform
 ```
 
 ### Frontend
